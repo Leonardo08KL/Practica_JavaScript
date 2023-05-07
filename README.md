@@ -7,3 +7,9 @@ Intégrese en pares y discutan hasta encontrar una primer funcionalidad. Para el
 Describa la historia de usuario. su funcionalidad y las tareas necesarias para realizarla. 
 
 Identifique que funcionalidad resultante tiene hasta los primeros 26 minutos del video. ¿Cuál es? 
+
+
+# Ultima entrega
+
+Se implemento todo el codigo del video.
+Hace el CRUD que se muestra en el video 
