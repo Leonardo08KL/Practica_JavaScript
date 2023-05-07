@@ -1,12 +1,16 @@
 import AddTodo from "./components/add-todo.js";
+import Modal from "./components/modal.js";
 
 export default class View {
   constructor() {
     this.model = null;
     this.table = document.getElementById("table");
+
+    this.modal = new Modal();
     this.addTodoForm = new AddTodo();
 
     this.addTodoForm.onClick((title, description) => this.addTodo(title, description));
+    this.modal.onClick((id, values) => this.editTodo(id, values));
   }
 
   setModel(model) {
@@ -77,9 +81,6 @@ export default class View {
     row.children[3].appendChild(removeBtn);
   }
 }
-
-
-
 // import AddTodo from './components/add-todo.js';
 
 // export default class View {
